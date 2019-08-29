@@ -1,7 +1,19 @@
+[![Environment](https://img.shields.io/badge/Arduino-Library-blue)](https://www.arduino.cc/)
+[![Environment](https://img.shields.io/badge/ESP32-Environment-red)](https://en.wikipedia.org/wiki/ESP32)
+
 # PZEM-004T v3.0 -with MODBUS PROTOCOL-
 Arduino library to connect to the PZEM004T v3.0 sensor, thanks to the Modbus protocol
 
-### Manufacturer specifications
+* [Manufacturer specifications](#Manufacturer-specifications)
+* [Example](#Example)
+* [Version changes](#Version-changes)
+* [Tested boards](#Tested-boards)
+* [Improvements](#Improvements)
+* [Authors](#Authors)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/josecserrano/2)
+
+# Manufacturer specifications
 
 | Function      | Measuring range    | Resolution      | Accuracy |
 |---------------|--------------------|-----------------|----------|
@@ -12,7 +24,7 @@ Arduino library to connect to the PZEM004T v3.0 sensor, thanks to the Modbus pro
 | Frequency     | 45~65Hz            | 0.1Hz           | 0.5%     |
 | Power factor  | 0.00~1.00          | 0.01            | 1%       |
 
-### Example
+# Example
 ```c++
 #include <PZEM004Tv30_MODBUS.h>
 
@@ -61,14 +73,17 @@ double value;
   Serial.println("Next =================================");
 }
 ```
+# Version changes
+v1.0.0
+- First Version
 
-### Tested boards
+# Tested boards
 - ESP32
 
-### Improvements
+# Improvements
 - Currently only connections are used through hardwareserial port, so it would be interesting to include the possibility of using Softwareserial
 
-### Author:
-José Carlos Serrano Catena. 
+# Authors:
+Jose Carlos Serrano Catena. 
 
-#First Version: 30/08/2019
+# First Version: 30/08/2019
