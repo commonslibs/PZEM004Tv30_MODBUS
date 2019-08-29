@@ -1,23 +1,20 @@
 # PZEM-004T v3.0 -with MODBUS PROTOCOL-
-Arduino library to connect, with the Modbus protocol, with the PZEM004T-v3.0 sensor.
+Arduino library to connect to the PZEM004T v3.0 sensor, thanks to the Modbus protocol
 
+### Manufacturer specifications
 
-### Manufacturer (optimistic) specifications
-
-| Function      | Measuring range    | Resolution      | Accuracy | TODO: Realistic specifications |
-|---------------|--------------------|-----------------|----------|--------------------------------|
-| Voltage       | 80~260V            | 0.1V            | 0.5%     |                                |
-| Current       | 0\~10A or 0\~100A*   | 0.01A or 0.02A* | 0.5%     |                                |
-| Active power  | 0\~2.3kW or 0\~23kW* | 0.1W            | 0.5%     |                                |
-| Active energy | 0~9999.99kWh       | 1Wh             | 0.5%     |                                |
-| Frequency     | 45~65Hz            | 0.1Hz           | 0.5%     |                                |
-| Power factor  | 0.00~1.00          | 0.01            | 1%       |                                |
-
-\* Using the external current transformer instead of the built in shunt
+| Function      | Measuring range    | Resolution      | Accuracy |
+|---------------|--------------------|-----------------|----------|
+| Voltage       | 80~260V            | 0.1V            | 0.5%     |
+| Current       | 0\~10A or 0\~100A    | 0.01A or 0.02A  | 0.5%     |
+| Active power  | 0\~2.3kW or 0\~23kW  | 0.1W            | 0.5%     |
+| Active energy | 0~9999.99kWh       | 1Wh             | 0.5%     |
+| Frequency     | 45~65Hz            | 0.1Hz           | 0.5%     |
+| Power factor  | 0.00~1.00          | 0.01            | 1%       |
 
 ### Example
 ```c++
-#include "PZEM004Tv30_MODBUS.h"
+#include <PZEM004Tv30_MODBUS.h>
 
 PZEM004Tv30_MODBUS sensor(&Serial2, 1);
 
@@ -65,4 +62,13 @@ double value;
 }
 ```
 
-Author: José Carlos Serrano Catena
+### Tested boards
+- ESP32
+
+### Improvements
+- Currently only connections are used through hardwareserial port, so it would be interesting to include the possibility of using Softwareserial
+
+### Author:
+José Carlos Serrano Catena. 
+
+#First Version: 30/08/2019
