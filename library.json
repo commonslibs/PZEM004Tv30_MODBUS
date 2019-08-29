@@ -1,0 +1,25 @@
+{
+    "name": "PZEM004Tv30_MODBUS",
+    "frameworks": "arduino",
+    "keywords": "peacefair, pzem, powermeter, v3, modbus",
+    "description": "Enables communication to Peacefair PZEM-004T v3.0 power and Energy monitor with Modbus protocol",
+    "url": "https://github.com/JCSCatena/PZEM004Tv30_MODBUS.git",
+    "authors": [
+        {
+            "name": "Jose Carlos Serrano Catena"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JCSCatena/PZEM004Tv30_MODBUS.git"
+    },
+    "platforms": "*",
+    "version": "1.0.0",
+    "dependencies": [
+        {
+            "name": "ModbusMaster",
+            "version": ">=2.0.1",
+            "platforms": "*"
+        }
+    ]
+}

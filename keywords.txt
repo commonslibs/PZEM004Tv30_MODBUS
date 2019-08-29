@@ -1,0 +1,23 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PZEM004Tv30_MODBUS	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setupPZEM004		KEYWORD2
+getPZEM004Voltage	KEYWORD3
+getPZEM004Current	KEYWORD4
+getPZEM004Power		KEYWORD5
+getPZEM004Energy	KEYWORD6
+getPZEM004Frequency	KEYWORD7
+getPZEM004Pf		KEYWORD8
+getPZEM004Alarm		KEYWORD9
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+//NONE LITERAL1
