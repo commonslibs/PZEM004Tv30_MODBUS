@@ -4,7 +4,7 @@
 # PZEM-004T v3.0 -with MODBUS PROTOCOL-
 Arduino library to connect to the PZEM004T v3.0 sensor, thanks to the Modbus protocol
 
-* [Manufacturer specifications](#Manufacturer-specifications)
+* [Sensor manufacturer specifications](#Sensor-manufacturer-specifications)
 * [Example](#Example)
 * [Version changes](#Version-changes)
 * [Tested boards](#Tested-boards)
@@ -13,7 +13,7 @@ Arduino library to connect to the PZEM004T v3.0 sensor, thanks to the Modbus pro
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/josecserrano/2)
 
-# Manufacturer specifications
+# Sensor manufacturer specifications
 
 | Function      | Measuring range    | Resolution      | Accuracy |
 |---------------|--------------------|-----------------|----------|
